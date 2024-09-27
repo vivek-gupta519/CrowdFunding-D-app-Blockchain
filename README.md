@@ -10,7 +10,19 @@ This example shows How to Build an Awesome Web3 Crowd-Funding Platform with Reac
 ![Genesis Project](./screenshots/1.gif)
 <center><figcaption>Back Project</figcaption></center>
 
-## commmands ##
+
+**ENSURE THAT YOU HAVE INSTALLED METAMASK IN YOUR EXISTING BROWSER**
+
+**Add Hardhat Network to Metamask**
+Network Name: Hardhat
+New RPC URL: http://127.0.0.1:8545/
+Chain ID: 31337
+Currency Symbol: HardhatETH
+
+![image](https://github.com/user-attachments/assets/0c46ea77-77e5-4ae1-aba4-cf157eb12bea)
+
+
+## COMMANDS ##
 **To install the  node module**
 
      yarn install
@@ -45,32 +57,6 @@ This demo uses:
 - EthersJs
 - Faucet
 
-## Running the demo
-
-To run the demo follow these steps:
-
-1. Clone the project with the code below.
-    ```sh
-
-    # Make sure you have the above prerequisites installed already!
-    git clone https://github.com/Daltonic/genesis PROJECT_NAME
-    cd PROJECT_NAME # Navigate to the new folder.
-    yarn install # Installs all the dependencies.
-    ```
-2. Create an Infuria project, copy and paste your key in the spaces below.
-3. Update the `.env` file with the following details.
-    ```sh
-    ENDPOINT_URL=<RPC_URL>
-    SECRET_KEY=<SECRET_PHRASE>
-    DEPLOYER_KEY=<YOUR_PRIVATE_KEY>
-    ```
-2. Create a CometChat project, copy and paste your key in the spaces below.
-3. Run the app using `yarn start`
-<br/>
-
-If your confuse about the installation, check out this **TUTORIAL** to see how you should run it.
-
-Questions about running the demo? [Open an issue](https://github.com/Daltonic/genesis/issues). We're here to help ✌️
 
 ## Useful links
 
