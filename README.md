@@ -10,6 +10,27 @@ This example shows How to Build an Awesome Web3 Crowd-Funding Platform with Reac
 ![Genesis Project](./screenshots/1.gif)
 <center><figcaption>Back Project</figcaption></center>
 
+## commmands ##
+**To install the  node module**
+
+     yarn install
+     
+**To install Hardhat**
+
+     npm install --save-dev hardhat
+
+**Start the Hardhat local Server**
+
+    npx hardhat node
+    
+**To deploy the solidity program**
+
+     yarn hardhat run scripts/deploy.js
+
+**To start the react app**
+
+     yarn start
+     
 ## Technology
 
 This demo uses:
